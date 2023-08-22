@@ -1,9 +1,5 @@
-getgenv().Jailbreak = true
-
-
 if not getgenv().UIAuthorized or not getgenv().LoaderLoaded then
     game.Players.LocalPlayer:Kick("Unauthorized access detected. This is an Unofficial Product.")
 else
-     print("Authorized access.")   
+    print("Authorized access.")
 end
-
