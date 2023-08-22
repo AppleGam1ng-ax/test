@@ -3,4 +3,16 @@ if not getgenv().UIAuthorized or not getgenv().LoaderLoaded then
     game.Players.LocalPlayer:Kick('Please use the official Loader.')
 else
     print("Authorized access.")
+ local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Cripzs/Fullyz.xyz/main/UI%20Library.lua'))()
+ local Box = Library.Render({
+    SavePosition = true;
+})
+
+local Example = Box:Tab({
+    Title = 'Home';
+})
+
+local Section = Example:Section({
+    Title = 'Section'
+})
 end
