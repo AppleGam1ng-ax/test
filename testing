@@ -7,4 +7,3 @@ else
      print("Authorized access.")   
 end
 
-print("Thanks for using testing bruh")
